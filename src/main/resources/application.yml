@@ -1,0 +1,5 @@
+micronaut:
+  application:
+    name: gcpLogs
+  server:
+    port: 28418
