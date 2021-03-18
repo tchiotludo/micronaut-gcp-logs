@@ -26,6 +26,7 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
 
     implementation("io.micronaut.gcp:micronaut-gcp-logging:3.4.0")
+    implementation("com.google.cloud:google-cloud-graalvm-support:0.3.0")
 }
 
 
@@ -37,6 +38,3 @@ java {
     sourceCompatibility = JavaVersion.toVersion("1.8")
     targetCompatibility = JavaVersion.toVersion("1.8")
 }
-
-
-
